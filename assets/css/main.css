@@ -831,10 +831,18 @@ section,
   z-index: 2;
 }
 
-.hero .container {
+#logo{
+  position: relative;
+  align-items: center;
+  z-index: 3;
+  max-width: 95%;
+  height: auto;
+}
+
+/*.hero .container {
   position: relative;
   z-index: 3;
-}
+}*/
 
 .hero h2 {
   color: var(--contrast-color);
@@ -1605,6 +1613,23 @@ section,
   color: var(--accent-color);
 }
 
+.faq .btn-getstarted,
+.faq .btn-getstarted:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 26px;
+  margin: 0;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.faq .btn-getstarted:hover,
+.faq .btn-getstarted:focus:hover {
+  color: var(--contrast-color);
+  background: rgba(var(--accent-color-rgb), 0.85);
+}
+
 /* Team Section - Home Page
 ------------------------------*/
 .team {
@@ -1789,6 +1814,7 @@ section,
   border-radius: 50px;
   border: 6px solid var(--background-color);
   margin-right: 10px;
+  padding: 7px;
 }
 
 .testimonials .testimonial-item h3 {
