@@ -176,7 +176,7 @@ section {
   --background-color: #ffffff;
   --heading-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #d83535;
+  --nav-hover-color: #efcd7e;
 }
 
 /*--------------------------------------------------------------
@@ -1812,7 +1812,7 @@ section,
   width: 90px;
   height: 90px;
   border-radius: 50px;
-  border: 6px solid var(--background-color);
+  border: 6px solid rgb(35,93,100,0.3);
   margin-right: 10px;
   padding: 7px;
 }
