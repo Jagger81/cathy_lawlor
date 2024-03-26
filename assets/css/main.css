@@ -932,6 +932,10 @@ section,
 
 /* About Section - Home Page
 ------------------------------*/
+.about span {
+  font-weight: bold;
+}
+
 .about {
   --background-color: #f4f4f4;
 }
