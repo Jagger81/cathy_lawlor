@@ -796,9 +796,9 @@ section,
 /*--------------------------------------------------------------
 # Home Page
 --------------------------------------------------------------*/
-/* Hero Section - Home Page
+/* top Section - Home Page
 ------------------------------*/
-.hero {
+.top {
   --default-color: #ffffff;
   --default-color-rgb: 255, 255, 255;
   --background-color: #000000;
@@ -812,7 +812,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.top img {
   position: absolute;
   inset: 0;
   display: block;
@@ -823,7 +823,7 @@ section,
   z-index: 1;
 }
 
-.hero:before {
+.top:before {
   content: "";
   background: rgba(var(--background-color-rgb), 0.5);
   position: absolute;
@@ -839,25 +839,25 @@ section,
   height: auto;
 }
 
-/*.hero .container {
+/*.top .container {
   position: relative;
   z-index: 3;
 }*/
 
-.hero h2 {
+.top h2 {
   color: var(--contrast-color);
   margin: 0;
   font-size: 44px;
   font-weight: 700;
 }
 
-.hero p {
+.top p {
   color: rgba(var(--default-color-rgb), 0.8);
   margin: 5px 0 0 0;
   font-size: 20px;
 }
 
-.hero .sign-up-form {
+.top .sign-up-form {
   margin-top: 20px;
   padding: 10px;
   border-radius: 7px;
@@ -865,17 +865,17 @@ section,
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
-.hero .sign-up-form .form-control {
+.top .sign-up-form .form-control {
   border: none;
 }
 
-.hero .sign-up-form .form-control:active,
-.hero .sign-up-form .form-control:focus {
+.top .sign-up-form .form-control:active,
+.top .sign-up-form .form-control:focus {
   outline: none;
   box-shadow: none;
 }
 
-.hero .sign-up-form input[type=submit] {
+.top .sign-up-form input[type=submit] {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
@@ -884,16 +884,16 @@ section,
   color: var(--contrast-color);
 }
 
-.hero .sign-up-form input[type=submit]:hover {
+.top .sign-up-form input[type=submit]:hover {
   background-color: rgba(var(--accent-color-rgb), 0.9);
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .top h2 {
     font-size: 32px;
   }
 
-  .hero p {
+  .top p {
     font-size: 18px;
   }
 }
