@@ -936,6 +936,17 @@ section,
   font-weight: bold;
 }
 
+.about img{
+  border-radius: 5px;
+  max-height: 100%;
+}
+
+@media (min-width: 768px) {
+#about_me_p1 {
+  margin-top: 181px;
+}
+}
+
 .about {
   --background-color: #f4f4f4;
 }
